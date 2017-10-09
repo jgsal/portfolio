@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Jessica's Udacity Portfolio Project" />
+	<meta name="author" content="//github.com/jxbotx" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.o, user-scalable=yes">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Jessica's Portfolio</title>
+
+	<link rel="icon" sizes="192x192" href="images/jlogo-100_logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+			<div class="row">
+					<div id="logodiv" class="col-md-6">					
+						<img class="title-logo" src="images/jlogo-100_logo.png" alt="Site owner's logo" title="j!">
+					</div>
+					<div id="namediv" class="col-md-6 text-right text-uppercase">
+						<h1 class="title-super text-thin">Jessica Salazar</h1>
+						<h4>Full Stack Master Robot</h4>
+					</div>
+			</div>
+        </header>
+        <article>
+        <div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<picture id="mainimage">
+						<source media="(min-width: 750px)" srcset="images/sunsky-1600_largexx.jpg" />
+						<source media="(min-width: 500px)" srcset="images/sunsky-750_medium.jpg" />
+						<img class="img-responsive" src="images/sunsky-555_small.jpg" alt="Main site page image of the wing of a plane and the rising sun over the horizon" title="Chasing the Sun">
+					</picture>
+				</div>
+			</div>
+			<!-- Button trigger modal 1 -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">First Full Stack Project: Favorite Movies Site</h4>
+                </div>
+                <div class="modal-body">
+                    <picture id="movieproject">
+                    <source media="(min-width: 750px)" srcset="images/movieproject-1600_largexx.png" />
+                    <source media="(min-width: 500px)" srcset="images/movieproject-750_medium.png" />
+                    <img class="img-responsive" src="images/movieproject-555_small.png" alt="A simple site of my favorite top 5 movies." title="Top 5 Movie Site Project">
+                    </picture>
+                    This was my first project in this class. I learned a lot about Python. I enjoyed it so much I dove into using API's right away.
+                </div>
+                <div class="modal-footer">
+                <!--button to close-->
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div id="workdiv" class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/moviecapture-555_small.png" alt="Movie Website" title="Click Me! Top 5 Movie Site" data-toggle="modal" data-target="#project1">
+					<!--modal id must have #before it-->
+					<h3 class="text-uppercase">Movie Project</h3>
+					<p><a href="https://github.com/jxbotx/movieproject">https://github.com/jxbotx/movieproject</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/FlowerTurtle-555_small.png" alt="Flower Turtle" title="Sunflower Turtle">
+					<h3 class="text-uppercase">Python Flower Turtle</h3>
+					<p><a href="https://github.com/jxbotx/flowerturtle">https://github.com/jxbotx/flowerturtle</a></p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/landscape-555_small.jpg" alt="HWY 101" title="Road Trip/Coming Soon">
+					<h3 class="text-uppercase">Coming Soon.</h3>
+					<p>Share my page with the Social Icons below.</p>
+				</div>
+			</div>
+        </article>
+    </div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+
+		<div class="row">
+    		<div class="col-md-12" id="social">
+      			<a href="https://www.facebook.com/irockj" class="zocial-facebook">Facebook</a>
+      			<a href="https://plus.google.com/+jessicasalazarbot" class="zocial-googleplus">Google+</a>
+      			<a href="http://github.com/jxbotx" class="zocial-github">Github</a>
+    		</div>
+    	</div>
+    </div>
+</footer>
+</body>
+</html>
